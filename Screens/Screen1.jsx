@@ -82,7 +82,7 @@ const Screen1 = ({ navigation }) => {
           </View>
         </ScrollView>
       </KeyboardAvoidingView>
-      <BottomButton navigation={navigation} screenName={'Screen2'} readyToNavigate={true} error={error}/>
+      <BottomButton navigation={navigation} screenName={'Screen2'} readyToNavigate={readyToNavigate} error={error}/>
     </Background>
   );
 };
